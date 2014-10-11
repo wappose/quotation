@@ -1,0 +1,17 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+#Ignore Eclipse stuff
+.buildpath
+.project
+/.settings
+
+#Ignore crap
+[Tt]humbs.db
+*.DS_Store
+*.tgz
+*.sql
